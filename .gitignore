@@ -216,3 +216,31 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Reference genome and indexes
+*.fa
+*.fa.gz
+*.fasta
+*.fai
+*.amb
+*.ann
+*.bwt.2bit.64
+*.pac
+*.0123
+
+# Sequencing data
+*.fastq
+*.fastq.gz
+*.fq.gz
+
+# Alignment files
+*.bam
+*.bai
+*.cram
+
+# Variant files (keep small ones, ignore big ones)
+*.vcf.gz
+*.bcf
+
+# GATK temp files
+tmp/
